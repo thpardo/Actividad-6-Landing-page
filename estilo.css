@@ -3,7 +3,43 @@ img{
     width: 40%;
     right: 5%;
 }
-
+button {
+    position: absolute;
+    width: 20%;
+    top: 25%;
+}
 .div3{
     
 }
+.titulo{
+    position: absolute;
+    height: 40%;
+    width: 40%;
+    top: 10%;
+}
+h2{
+    position: absolute;
+    width: 40%;
+    top: 15%;
+}
+.beneficios{
+    position: absolute;
+    width: 40%;
+    top: 30%;
+}
+.p1{
+    position: absolute;
+    top: 30%;
+    right: 80%;
+}
+.p2{
+    position: absolute;
+    top: 30%;
+    left: 80%;
+}
+.p3{
+    position: absolute;
+    top: 30%;
+    text-align: center;
+}
+
