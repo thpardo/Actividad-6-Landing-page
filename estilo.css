@@ -93,27 +93,58 @@ nav a:hover {
 .testimonios div img{
     width: 50%;
 }
-/*
-h2{
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 5%;
+}
+
+.hero img {
     width: 40%;
-    top: 15%;
 }
-.beneficios{
-    width: 40%;
-    top: 30%;
+
+/* BOTÓN */
+.btn {
+    display: inline-block;
+    background-color: #000;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 20px;
 }
-.p1{
-    top: 30%;
-    right: 80%;
+
+.btn:hover {
+    background-color: #444;
 }
-.p2{
-    top: 30%;
-    left: 80%;
-}
-.p3{
-    top: 30%;
+
+/* FRASE */
+.frase {
+    font-size: 20px;
+    font-weight: bold;
     text-align: center;
 }
-    */
-    
 
+/* BENEFICIOS */
+.beneficio {
+    margin: 20px;
+}
+
+/* TESTIMONIOS */
+.testimonios h2 {
+    text-align: center;
+}
+
+/* CTA FINAL */
+.cta-final {
+    text-align: center;
+    padding: 5%;
+    background-color: #222;
+    color: white;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+}
