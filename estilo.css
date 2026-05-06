@@ -15,7 +15,16 @@ header {
 header h1 {
     margin: 0;
     padding: 10px;
+    clear: both;
 }
+
+main img{
+    width: 50%;
+    margin-left: 1%;
+    float: right;
+}
+
+
 
 
 .titulo{
@@ -27,6 +36,9 @@ header h1 {
 button {
     width: 20%;
     top: 25%;
+}
+.descripciones{
+    padding-top: 15%;
 }
 nav {
     background-color: #333; 
@@ -64,15 +76,22 @@ nav a:hover {
     width: 100%;
 }
 
-.Testimonios{
-    background-color: rgb(107, 141, 141);
+.testimonios{
+    padding-top: 5%;
 }
-.LucaProdan
-{
-    width: 10%;
-    border: 3px;
-    border-color: black;
-    
+.testimonios div{
+    display: inline-block;
+    width: 30%;
+    margin-left: 3%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    border-radius: 10px;    
+    text-align: center;
+   
+}
+
+.testimonios div img{
+    width: 50%;
 }
 /*
 h2{
